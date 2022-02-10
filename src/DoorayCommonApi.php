@@ -1,6 +1,6 @@
 <?php
 
-namespace Nhn\\PhpDooray;
+namespace NhnEdu\PhpDooray;
 
 class DoorayCommonApi extends DoorayServiceApiBase {
 	public function getMembers($page = 0, $size = 100, $filters = []) {

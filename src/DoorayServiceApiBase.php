@@ -1,6 +1,6 @@
 <?php
 
-namespace Nhn\\PhpDooray;
+namespace NhnEdu\PhpDooray;
 	
 class DoorayServiceApiBase {
 
