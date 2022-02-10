@@ -3,7 +3,7 @@
     "description": "Dooray SDK for PHP - Can easily use APIs provided by Dooray! (https://www.dooray.com) service.",
     "version": "1.0.0-dev",
     "type": "library",
-    "keywords" : "dooray,messenger,project,api",
+    "keywords" : ["dooray","messenger","project","api"],
     "homepage": "https://github.com/eric-nhnedu/php-dooray",
     "time": "2020-02-10 20:00:00",
     "license": "Apache-2.0",
