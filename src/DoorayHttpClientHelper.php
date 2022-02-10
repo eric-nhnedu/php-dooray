@@ -1,6 +1,6 @@
 <?php
 
-namespace com\dooray\thrirdparty;
+namespace Nhn\\PhpDooray\\;
 
 class DoorayHttpClientHelper {
 

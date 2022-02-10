@@ -1,6 +1,6 @@
 <?php
 
-namespace com\dooray\thrirdparty;
+namespace Nhn\\PhpDooray\\;
 
 class DoorayMessengerHelper {
 	public static function sendMessage($url, $message, $botName = null, $botIcon = null) {
