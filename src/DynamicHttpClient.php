@@ -1,6 +1,6 @@
 <?php
 
-namespace Nhn\\PhpDooray\\;
+namespace Nhn\\PhpDooray;
 
 class DynamicHttpClient {
 	public static function send($httpMethod, 

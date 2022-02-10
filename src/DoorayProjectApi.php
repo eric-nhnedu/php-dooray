@@ -1,6 +1,6 @@
 <?php
 
-namespace Nhn\\PhpDooray\\;
+namespace Nhn\\PhpDooray;
 
 class DoorayProjectApi extends DoorayServiceApiBase {
 	public function getProject($projectId) {
