@@ -82,3 +82,7 @@ object(stdClass)#7 (9) {
   }
 }
 ```
+
+## Example Project
+
+- https://github.com/eric-nhnedu/team-task-collector
