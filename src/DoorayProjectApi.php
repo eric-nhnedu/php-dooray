@@ -16,6 +16,10 @@ class DoorayProjectApi extends DoorayServiceApiBase {
 		return $this->_project->getJSON('/projects/'.$projectId.'/workflows');
 	}
 
+	public function getProjectTags($projectId) {
+		return $this->_project->getJSON('/projects/'.$projectId.'/tags');
+	}
+
 	public function getTask($projectId, $postId) {
 		return $this->_project->getJSON('/projects/'.$projectId.'/posts/'.$postId);
 	}
