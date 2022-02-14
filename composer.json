@@ -1,7 +1,7 @@
 {
     "name": "nhn-edu/php-dooray",
     "description": "Dooray SDK for PHP - Can easily use APIs provided by Dooray! (https://www.dooray.com) service.",
-    "version": "1.0.1.4",
+    "version": "1.0.1.5",
     "type": "library",
     "keywords" : ["dooray","messenger","project","api"],
     "homepage": "https://github.com/eric-nhnedu/php-dooray",
