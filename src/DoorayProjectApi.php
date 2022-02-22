@@ -56,11 +56,12 @@ class DoorayProjectApi extends DoorayServiceApiBase {
 								$cc = null,
 								$milestoneId = null,
 								$tagIds = [],
-								$priority = 'none') {
+								$priority = 'none',
+								$parentPostId = null) {
 
 		$requestBody = [];
 
-		$requestBody['parentPostId'] = null;
+		$requestBody['parentPostId'] = $parentPostId;
 		$requestBody['users'] = ['to' => $to, 'cc' => $cc];
 		$requestBody['subject'] = $subject;
 		$requestBody['body'] = [
@@ -78,6 +79,10 @@ class DoorayProjectApi extends DoorayServiceApiBase {
 
 	public function setPostDone($projectId, $postId ) {
 		return $this->_project->postJSON('/projects/'.$projectId.'/posts/'.$postId.'/set-done');
+	}
+
+	public function getLogs($projectId, $postId, $page = 0, $size = 100, $filters = []) {
+		return $this->getProjectList('/projects/'.$projectId.'/posts/'.$postId.'/logs', $page, $size, $filters);
 	}
 
 	public function postLog($projectId, $postId, $content, $mimeType = 'text/x-markdown') {
